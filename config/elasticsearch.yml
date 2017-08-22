@@ -33,6 +33,7 @@ thread_pool:
   index:
     queue_size: ${THREAD_POOL_INDEX_QUEUE_SIZE}
   bulk:
+    size: ${THREAD_POOL_BULK_SIZE}
     queue_size: ${THREAD_POOL_BULK_QUEUE_SIZE}
 
 indices:
